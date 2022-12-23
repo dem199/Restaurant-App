@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
+    />
+    <link rel="stylesheet" href="index.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Smythe&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Restuarant</title>
+  </head>
+  <body>
+    <main>
+      <div class="header">
+        <h1 class="header-name">Lolo's Empire</h1>
+        <p class="header-text">The best restaurant in town</p>
+      </div>
+
+      <section>
+        <div class="outer-container" id="outer-container">
+          <!--javascript injection-->
+        </div>
+
+        <div class="order-table hide" id="order-table">
+          <h1 class="order-header">Your order</h1>
+          <div class="all-order" id="all-order-table">
+            <!--javascript injection-->
+          </div>
+          <div class="total" id="the-total-price">
+            <!--javascript injection-->
+          </div>
+          <button class="complete-btn" id="complete-btn">Complete order</button>
+        </div>
+        <p class="pending-message" id="pending-message"></p>
+      </section>
+    </main>
+    <form id="order-form" class="order-form">
+      <h1 class="form-header">Enter card details</h1>
+      <input
+        type="text"
+        name="fullName"
+        id="card-name"
+        placeholder="Enter your name"
+        required
+      />
+      <input
+        type="text"
+        name="cardNumber"
+        id="card-number"
+        placeholder="Enter card number"
+        required
+      />
+      <input type="number" class="card-cvv" placeholder="Enter CVV" required />
+      <button type="submit" class="pay">Pay</button>
+    </form>
+    <script src="index.js" type="module"></script>
+  </body>
+</html>
