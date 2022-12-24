@@ -1,4 +1,4 @@
-import { menuArray } from '/data.js'
+import { menuArray } from './data.js'
 
 let order = initializeOrder()
 const allOrderTable = document.getElementById('all-order-table')
