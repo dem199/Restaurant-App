@@ -17,7 +17,7 @@ main{
 
 .header{
     height: 167px; 
-    background-image: url(/ferks-guare-KEZdWfYD-ow-unsplash\ 1.png);
+    background-image: url(./ferks-guare-KEZdWfYD-ow-unsplash\ 1.png);
     background-size: cover;
     display: flex;
     flex-direction: column;
